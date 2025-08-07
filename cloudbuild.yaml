@@ -1,5 +1,5 @@
 steps:
-  - name: 'build-docker-image'
+  - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t' ,'gcr.io/gcp-devops', '.']
 images:
   - gcr.io/gcp-devops
