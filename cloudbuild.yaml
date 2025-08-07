@@ -3,3 +3,4 @@ steps:
     args: ['build', '-t' ,'gcr.io/GCPdevops', '.']
 images:
   - gcr.io/GCPdevops
+logging: CLOUD_LOGGING_ONLY
