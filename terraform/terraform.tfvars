@@ -1,0 +1,6 @@
+ip_range_pods = "10.128.1.0/24"
+cluster_name  = "gke-devops-cluster"
+network       = "default"
+project_id    = "kkgcplabs01-037"
+subnetwork    = "default"
+region        = "us-central1"
